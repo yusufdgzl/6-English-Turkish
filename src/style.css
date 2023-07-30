@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background: linear-gradient(to left,rgb(152, 216, 152),rgb(216, 117, 117));
+    display: flex;
+    box-sizing: border-box;
+}
+
+.englishWord {
+    font-size: 25px;
+    margin: 0 200px;
+
+}
+
+.button {
+    margin-left: 20px;
+    width: 70px;
+    height: 20px;
+    border-radius: 35px;
+}
+
+.button:hover {
+    background-color: rgb(141, 251, 148);
+}
+
+.answers {
+   margin: auto 30px;
+    font-size: 30px;
+  color: rgb(255, 0, 0);
+  font-weight: 900;
+  border: 3px inset rgb(136, 217, 239);
+  box-shadow: 3px 3px;
+  border-radius: 10px;
+}
